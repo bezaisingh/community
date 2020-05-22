@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="2dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/xxxRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:elevation="20dp"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/ll_xxx_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/TRY_work_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work Value"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/TRY_tsk_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Task Description"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/TRY_listTvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Date"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/TRY_listTvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+android:layout_below="@+id/xxxRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/background_dark">
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

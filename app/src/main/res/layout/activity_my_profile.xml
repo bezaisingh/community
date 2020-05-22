@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".myProfileActivity"
+    >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+</ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:paddingLeft="5dp">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilePic"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile"
+            />
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Name:"
+            />
+
+        <TextView
+            android:id="@+id/mobNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tvUPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPI:"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tvDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="DOB:"
+            android:inputType="date"
+            />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Gender:"
+            />
+
+        <TextView
+            android:id="@+id/tvDistrict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="District"
+            />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Address:"
+            />
+
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="State:"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/viewIdFront"
+                android:paddingRight="5dp"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_insert_drive_file_black_24dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/viewIdBack"
+                android:paddingLeft="5dp"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_insert_drive_file_black_24dp"
+
+                />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnUpdateDetails"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Details"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textAppearance="@style/buttonStyle1"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

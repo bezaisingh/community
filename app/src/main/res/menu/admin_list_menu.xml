@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/allUsers"
+        android:title="All Users"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/allPosts"
+        android:title="All Posts"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        >
+
+    </item>
+
+</menu>

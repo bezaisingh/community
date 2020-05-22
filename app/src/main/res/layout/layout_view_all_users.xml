@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".myProfileActivity"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/UserCardView"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="5dp"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Admin_view_profilePic"
+                android:layout_gravity="center"
+                android:paddingTop="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile"
+                />
+            <TextView
+                android:id="@+id/Admin_view_tvName"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Name:"
+                />
+            <TextView
+                android:id="@+id/Admin_view_mobNum"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/Admin_view_tvEmail"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail:"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/Admin_view_tvUPI"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPI:"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/Admin_view_tvDOB"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="DOB:"
+                android:inputType="date"
+                />
+            <TextView
+                android:id="@+id/Admin_view_tvGender"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Gender:"
+                />
+            <TextView
+                android:id="@+id/Admin_view_tvDistrict"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="District"
+                />
+            <TextView
+                android:id="@+id/Admin_view_tvAddress"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Address:"
+                />
+            <TextView
+                android:id="@+id/Admin_view_tvState"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="State:"
+                />
+            <TextView
+                android:id="@+id/Admin_view_tvCountry"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Country:"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>
+

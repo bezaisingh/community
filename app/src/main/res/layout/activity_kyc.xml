@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KycActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearLayout0"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Profile Pic"
+        android:textSize="20sp"/>
+
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile"/>
+    <Button
+        android:id="@+id/btnUpdatePP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="45dp"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="3dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textAppearance="@style/buttonStyle1"
+        />
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearLayout1"
+        android:layout_below="@id/linearLayout0"
+        >
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="10dp">
+
+         <TextView
+             android:id="@+id/tvIdName"
+             android:layout_width="130dp"
+             android:layout_height="wrap_content"
+             android:text="ID Name"
+             android:textSize="20sp"/>
+
+         <Spinner
+             android:id="@+id/spinIdName"
+             android:layout_width="170dp"
+             android:layout_height="30dp"
+             android:layout_toRightOf="@+id/tvIdName"
+             android:textSize="30sp"
+             android:layout_marginLeft="10dp">
+         </Spinner>
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:padding="10dp"
+        android:layout_marginTop="50dp">
+
+    <TextView
+        android:id="@+id/tvIdNum"
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="ID Number"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/idNumber"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID Number"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/tvIdNum"
+        android:layout_marginLeft="10dp"
+        />
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@id/linearLayout1"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+       >
+
+        <TextView
+            android:id="@+id/idFront"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="ID Front"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/imgIdFront"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ic_insert_drive_file_black_24dp"
+            />
+
+        <Button
+            android:id="@+id/btnUpdateIdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:layout_marginTop="45dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="3dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textAppearance="@style/buttonStyle1"
+            />
+
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearLayout4"
+        android:layout_below="@id/linearLayout3"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        >
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="ID Back"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/imgIdBack"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ic_insert_drive_file_black_24dp" />
+        <Button
+            android:id="@+id/btnUpdateIdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="3dp"
+            android:textSize="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textAppearance="@style/buttonStyle1"
+            />
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textAppearance="@style/buttonStyle1"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Community</string>
+    <string name="username">User email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome to Community Registration</string>
+    <string name="name">Name</string>
+    <string name="e_mail">e-mail</string>
+    <string name="register">Register</string>
+    <string name="pwd">Password</string>
+    <string name="already">Already registered? Log in</string>
+    <string name="clickRegister">New User? Register!</string>
+    <string name="welcomeHome">Community</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+    <string name="todo">TODO</string>
+    <string name="email_address">Email Address</string>
+
+    <string-array name="idList">
+        <item>AADHAR</item>
+        <item>PAN</item>
+        <item>VOTER ID</item>
+        <item>Driving License</item>
+    </string-array>
+
+</resources>

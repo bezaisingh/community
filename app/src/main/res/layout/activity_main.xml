@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+
+    <EditText
+
+        android:id="@+id/uEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:text=""
+        tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:text=""
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pswd"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:text="@string/login"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textAppearance="@style/buttonStyle1"/>
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/forgot"
+        android:textSize="20sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/clickRegister"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
